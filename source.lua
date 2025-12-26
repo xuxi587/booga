@@ -16,7 +16,7 @@ else
     local vu5 = game:GetService("Players")
     local vu6 = vu5.LocalPlayer
     if vu1 == "" or vu4 == "" then
-        vu6:("Error code 400. Please contact script maker")
+        vu6:kick("Error code 400. Please contact script maker")
         return
     elseif game.PlaceId == 920587237 then
         local vu7 = game:GetService("HttpService")
